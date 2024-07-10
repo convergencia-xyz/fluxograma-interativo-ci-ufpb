@@ -1,36 +1,36 @@
-# Welcome to Remix + Vite!
+# Fluxograma Interativo de Cursos - CI UFPB
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+Este projeto é um protótipo (POC - Proof of Concept) desenvolvido com o framework Remix.run. O objetivo é tornar dinâmicos e interativos os fluxogramas dos cursos do Centro de Informática da UFPB, facilitando a visualização de relações, requisitos, dependências e outras informações relevantes para os estudantes e coordenadores.
 
-## Development
+## Visão Geral
 
-Run the Vite dev server:
+O protótipo permite aos usuários interagir com os fluxogramas de uma forma visualmente intuitiva e dinâmica, oferecendo uma melhor compreensão das estruturas curriculares. Com ele, é possível explorar os pré-requisitos, co-requisitos e outras informações essenciais dos cursos de forma integrada.
 
-```shellscript
-npm run dev
-```
+## Tecnologias Utilizadas
 
-## Deployment
+- **Remix.run**: um framework moderno para construção de aplicações web.
+- **React**: para construção da interface do usuário com componentes reativos.
+- **Yarn**: como gerenciador de pacotes.
 
-First, build your app for production:
+## Instalação
 
-```sh
-npm run build
-```
+Para configurar e executar o projeto localmente, siga os passos abaixo:
 
-Then run the app in production mode:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/convergencia-xyz/fluxograma-interativo-ci-ufpb
+   cd fluxograma-interativo-ci-ufpb
+   ```
 
-```sh
-npm start
-```
+2. Instale as dependências utilizando Yarn:
+   ```bash
+   yarn
+   ```
 
-Now you'll need to pick a host to deploy it to.
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   yarn run dev
+   ```
 
-### DIY
+Isso iniciará o servidor no modo de desenvolvimento e abrirá o aplicativo no seu navegador padrão.
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
